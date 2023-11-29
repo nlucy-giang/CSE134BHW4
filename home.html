@@ -1,0 +1,445 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Lucy Giang | Portfolio</title>
+    <link rel="stylesheet" href="styles.css">
+    <script src="script.js"></script>
+</head>
+<body>
+    <!-- Header -->
+    <header>
+        <nav>
+              <table>
+                  <tr>
+                      <td>
+                        <span><b>LUCY GIANG</b></span>
+                      </td>
+                      <td><a href="#about">About</a></td>
+                      <td><a href="#skills">Skills</a></td>
+                      <td><a href="#projects">Projects</a></td>
+                      <td><a href="#contact">Contact</a></td>
+                      <td><div class="toggle-container">
+                        <button type="button" id="theme-toggle" onclick="toggleTheme()"><span id="theme-icon"></span></button>
+                    </div></td>
+                    <noscript>
+        <style>
+            #theme-toggle {
+                display: none;
+            }
+        </style>
+    </noscript>
+                  </tr>
+              </table>
+        </nav>
+    </header>
+    <!-- Main Content -->
+    <main class="container">
+        <section id="about">
+                        <table>
+                            <tr>
+                                <td>
+                                    <picture id="selfportrait">
+                                      <source media="(max-width: 767px)" srcset="portrait-optimized.jpg">
+                                      <source media="(min-width: 768px)" srcset="portrait.png">
+                                      <img src="portrait.png" alt="This is a picture of me.">
+                                    </picture><br><br>
+                                </td>
+                                <td id="bio">
+                                  <section class="bio-name">
+                                    <h1><font size="5"> Hi, I'm</font></h1>
+                                    <span><h1><strong><font size="10"> Lucy Giang</font></strong></h1></span>
+                                    <h2><i><font size="2"> Student Developer</font></i></h2>
+                                  </section>
+                                    <p id="bio-content"><font size="3">I'm a fourth year undergrad at UC San Diego and my passion is Computer Science. My interests include software design and development, UI/UX design, game development, artificial intelligence, and machine learning.</font></p>
+                                      <p id="learn-more">Learn more about my:</p>
+                                      <div class="about-button">
+                                      <a href="#skills"><button class="rounded-button" role="button">Skills</button></a>
+                                      <a href="#projects"><button class="rounded-button" role="button">Projects</button></a>
+                                      <a href="#contact"><button class="rounded-button" role="button">Contact</button></a>
+                                    </div>
+                                    <br><br>
+                                </td>
+                            </tr>
+                        </table>
+        </section>
+        <!-- Other sections: Skills, Projects, Contact -->
+        <section id="skills">
+            <!-- Skills -->
+            <h1><font size="8"> Skills </font> <br></h1>
+                        <table width="85%" border="0" align="center" cellpadding="15px">
+                            <tr>
+                                <td>
+                                  <picture>
+                                    <source media="(max-width: 767px)" srcset="icon-optimized.jpg">
+                                    <source media="(min-width: 768px)" srcset="icon.jpg">
+                                    <img src="icon.jpg" alt="This is an icon representing the skill.">
+                                    <!-- image courtesy of https://integreat.ro/ -->
+                                  </picture><br><br>
+                                    <h3><font size="5"> Object-Oriented Programming </font> <br></h3>
+                                    <p><font size="3"> This is a description of the skill. More information about each of these skills will be written here later. </font></p>
+                                </td>
+                                <td>
+                                  <picture>
+                                    <source media="(max-width: 767px)" srcset="icon-optimized.jpg">
+                                    <source media="(min-width: 768px)" srcset="icon.jpg">
+                                    <img src="icon.jpg" alt="This is an icon representing the skill.">
+                                    <!-- image courtesy of https://integreat.ro/ -->
+                                  </picture><br><br>
+                                    <h3><font size="5"> Web Development </font> <br></h3>
+                                    <p><font size="3"> This is a description of the skill. More information about each of these skills will be written here later. </font></p>
+                                </td>
+                                <td>
+                                  <picture>
+                                    <source media="(max-width: 767px)" srcset="icon-optimized.jpg">
+                                    <source media="(min-width: 768px)" srcset="icon.jpg">
+                                    <img src="icon.jpg" alt="This is an icon representing the skill.">
+                                    <!-- image courtesy of https://integreat.ro/ -->
+                                  </picture><br><br>
+                                    <h3><font size="5"> Java </font> <br></h3>
+                                    <p><font size="3"> This is a description of the skill. More information about each of these skills will be written here later. </font></p>
+                                </td>
+                            </tr>
+                            <tr>
+                                <td>
+                                  <picture>
+                                    <source media="(max-width: 767px)" srcset="icon-optimized.jpg">
+                                    <source media="(min-width: 768px)" srcset="icon.jpg">
+                                    <img src="icon.jpg" alt="This is an icon representing the skill.">
+                                    <!-- image courtesy of https://integreat.ro/ -->
+                                  </picture><br><br>
+                                    <h3><font size="5"> CSS </font> <br></h3>
+                                    <p><font size="3"> This is a description of the skill. More information about each of these skills will be written here later. </font></p>
+                                </td>
+                                <td>
+                                  <picture>
+                                    <source media="(max-width: 767px)" srcset="icon-optimized.jpg">
+                                    <source media="(min-width: 768px)" srcset="icon.jpg">
+                                    <img src="icon.jpg" alt="This is an icon representing the skill.">
+                                    <!-- image courtesy of https://integreat.ro/ -->
+                                  </picture><br><br>
+                                    <h3><font size="5"> HTML Development </font> <br></h3>
+                                    <p><font size="3"> This is a description of the skill. More information about each of these skills will be written here later. </font></p>
+                                </td>
+                                <td>
+                                  <picture>
+                                    <source media="(max-width: 767px)" srcset="icon-optimized.jpg">
+                                    <source media="(min-width: 768px)" srcset="icon.jpg">
+                                    <img src="icon.jpg" alt="This is an icon representing the skill.">
+                                    <!-- image courtesy of https://integreat.ro/ -->
+                                  </picture><br><br>
+                                    <h3><font size="5"> JavaScript </font> <br></h3>
+                                    <p><font size="3"> This is a description of the skill. More information about each of these skills will be written here later. </font></p>
+                                </td>
+                            </tr>
+                        </table>
+        </section>
+
+        <!-- Projects -->
+        <section id="projects">
+          <h1><font size="7"> Personal Projects </font> <br></h1>
+                        <table class="gallery">
+                            <tr>
+                                <!-- First row of projects -->
+                                <td class="project-item">
+                                  <a href="#project-link">
+                                    <picture>
+                                      <source media="(max-width: 767px)" srcset="project-icon-optimized.jpg">
+                                      <source media="(min-width: 768px)" srcset="project-icon.jpg">
+                                      <img src="project-icon.jpg" alt="This is a preview image of my project.">
+                                      <!-- image courtesy of https://www.istockphoto.com/ -->
+                                    </picture>
+                                    <div class="project-info">
+                                    <h3><font size="5"> Project 1 </font></h3>
+                                    <p><font size="3">This is a description of the project. More information about each of these projects will be written here later.</font></p>
+                                  </div>
+                                </a>
+                                </td>
+                                <td class="project-item">
+                                  <a href="#project-link">
+                                    <picture>
+                                      <source media="(max-width: 767px)" srcset="project-icon-optimized.jpg">
+                                      <source media="(min-width: 768px)" srcset="project-icon.jpg">
+                                      <img src="project-icon.jpg" alt="This is a preview image of my project.">
+                                      <!-- image courtesy of https://www.istockphoto.com/ -->
+                                    </picture>
+                                    <div class="project-info">
+                                    <h3><font size="5"> Project 2 </font></h3>
+                                    <p><font size="3">This is a description of the project. More information about each of these projects will be written here later.</font></p>
+                                  </div>
+                                  </a>
+                                </td>
+                                <td class="project-item">
+                                  <a href="#project-link">
+                                    <picture>
+                                      <source media="(max-width: 767px)" srcset="project-icon-optimized.jpg">
+                                      <source media="(min-width: 768px)" srcset="project-icon.jpg">
+                                      <img src="project-icon.jpg" alt="This is a preview image of my project.">
+                                      <!-- image courtesy of https://www.istockphoto.com/ -->
+                                    </picture>
+                                    <div class="project-info">
+                                    <h3><font size="5"> Project 3 </font></h3>
+                                    <p><font size="3">This is a description of the project. More information about each of these projects will be written here later.</font></p>
+                                  </div>
+                                  </a>
+                                </td>
+                            </tr>
+                            <tr>
+                                <!-- Second row of projects -->
+                                <td class="project-item">
+                                  <a href="#project-link">
+                                    <picture>
+                                      <source media="(max-width: 767px)" srcset="project-icon-optimized.jpg">
+                                      <source media="(min-width: 768px)" srcset="project-icon.jpg">
+                                      <img src="project-icon.jpg" alt="This is a preview image of my project.">
+                                      <!-- image courtesy of https://www.istockphoto.com/ -->
+                                    </picture>
+                                    <div class="project-info">
+                                    <h3><font size="5"> Project 4 </font></h3>
+                                    <p><font size="3">This is a description of the project. More information about each of these projects will be written here later.</font></p>
+                                  </div>
+                                  </a>
+                                </td>
+                                <td class="project-item">
+                                  <a href="#project-link">
+                                    <picture>
+                                      <source media="(max-width: 767px)" srcset="project-icon-optimized.jpg">
+                                      <source media="(min-width: 768px)" srcset="project-icon.jpg">
+                                      <img src="project-icon.jpg" alt="This is a preview image of my project.">
+                                      <!-- image courtesy of https://www.istockphoto.com/ -->
+                                    </picture>
+                                    <div class="project-info">
+                                    <h3><font size="5"> Project 5 </font></h3>
+                                    <p><font size="3">This is a description of the project. More information about each of these projects will be written here later.</font></p>
+                                  </div>
+                                  </a>
+                                </td>
+                                <td class="project-item">
+                                  <a href="#project-link">
+                                    <picture>
+                                      <source media="(max-width: 767px)" srcset="project-icon-optimized.jpg">
+                                      <source media="(min-width: 768px)" srcset="project-icon.jpg">
+                                      <img src="project-icon.jpg" alt="This is a preview image of my project.">
+                                      <!-- image courtesy of https://www.istockphoto.com/ -->
+                                    </picture>
+                                    <div class="project-info">
+                                    <h3><font size="5"> Project 6 </font></h3>
+                                    <p><font size="3">This is a description of the project. More information about each of these projects will be written here later.</font></p>
+                                  </div>
+                                  </a>
+                                </td>
+                            </tr>
+                        </table>
+
+                        <aside>
+                            <p><font size="3">To see more information about these projects, click here!</font></p><br>
+                            <a href="https://github.com/nlucy-giang" target="_blank"><button class="rounded-button">Github</button></a>
+                        </aside>
+        </section>
+        <!-- Contact -->
+        <section id="contact">
+          <div class="contact-container">
+            <div class="form-container">
+              <div class="left-container">
+                <div class="left-inner-container">
+                  <h2>Let's Chat</h2>
+                  <p>I'd love to hear from you.</p>
+                  <p>Feel free to send me an email or just shoot a message in the contact form.</p>
+                  <hr>
+                  <p>n1giang@ucsd.edu | 123-456-7890</p>
+                </div>
+              </div>
+
+              <div class="right-container">
+                <div class="right-inner-container">
+                  <form id="contact_form" action="https://httpbin.org/post" method="POST">
+                    <h2 class="lg-view">Contact</h2>
+                    <h3 class="lg-view" id="contact-info">n1giang@ucsd.edu | 123-456-7890</h3>
+                    <h2 class="sm-view">Let's Chat</h2>
+                    <p>* Required</p>
+
+                    <form-field>
+                      <input type="text" id="fullname" name="fullname" placeholder="Name *" required/>
+                      <output class="error-message" for="fullname"></output>
+                      <output class="info-message" for="fullname"></output>
+                    </form-field>
+
+                    <form-field>
+                      <input type="email" id="email" name="email" placeholder="Email *" required/>
+                      <output class="error-message" for="email"></output>
+                      <output class="info-message" for="email"></output>
+                    </form-field>
+
+                    <form-field>
+                      <textarea rows="10" id="message" name="message" placeholder="Your Message Here" required></textarea>
+                      <output class="error-message" for="message"></output>
+                      <output class="info-message" for="message"></output>
+                    </form-field>
+
+                    <input type="hidden" name="possible_bot" value="true">
+                    <button class="rounded-button" id="submitButton" type="submit" >Submit</button>
+                  </form>
+                </div>
+              </div>
+            </div>
+          </div>
+        </section>
+    </main>
+    <!-- Footer -->
+    <footer>
+        <table width="100%">
+            <tr align="center">
+                <td colspan="3">
+                  <h1 class="color-change"><font size="3">Hire Me | Last Updated: 11/5/2023</font></h1>
+                </td>
+            </tr>
+        </table>
+    </footer>
+    <script>
+      document.addEventListener("DOMContentLoaded", function () {
+        const contact_form = document.getElementById("contact_form");
+        const form_errors = [];
+        const submitButton = document.getElementById("submitButton");
+
+        // character masking mechanism for disallowed characters
+        contact_form.addEventListener("input", function (event) {
+      const inputField = event.target;
+      const disallowedPattern = /[^\w\s\.,'!?@]/; // allow letters, numbers, spaces, and common punctuation
+
+      if (inputField.id === "message" && disallowedPattern.test(inputField.value)) {
+        // present a message for illegal characters
+        inputField.classList.add("flash");
+        setTimeout(() => {
+          inputField.classList.remove("flash");
+        }, 1000);
+
+        const errorMessage = inputField.nextElementSibling;
+        errorMessage.textContent = "Illegal character detected.";
+        errorMessage.style.display = "block";
+      } else {
+        // Remove the error message and hide it
+        const errorMessage = inputField.nextElementSibling;
+        errorMessage.textContent = "";
+        errorMessage.style.display = "none";
+      }
+    });
+
+    submitButton.addEventListener("click", function (event) {
+      const messageField = document.getElementById("message");
+      const disallowedPattern = /[^\w\s\.,'!?@]/; // allow letters, numbers, spaces, and common punctuation
+
+      if (disallowedPattern.test(messageField.value)) {
+        // Prevent form submission
+        event.preventDefault();
+
+        // Record the error in the form_errors array
+        form_errors.push("Illegal character detected in the message field.");
+
+        // Display or handle the errors as needed
+        console.log("Form Errors:", form_errors);
+
+        // You can also update the UI to inform the user about the error
+        const errorMessage = messageField.nextElementSibling;
+        errorMessage.textContent = "Illegal character detected in the message field.";
+        errorMessage.style.display = "block";
+      } else if (messageField.value.length > 500) {
+        // Prevent form submission
+        event.preventDefault();
+
+        // Record the error in the form_errors array
+        form_errors.push("Message length exceeds 500 characters.");
+
+        // Display or handle the errors as needed
+        console.log("Form Errors:", form_errors);
+      }
+      else if (!contact_form.checkValidity()) {
+          event.preventDefault();
+          // Record validation error messages
+          contact_form.querySelectorAll(":invalid").forEach((element) => {
+            const customMessage = getCustomValidationMessage(element);
+            element.setCustomValidity(customMessage);
+            element.reportValidity();
+            element.setCustomValidity("");
+            form_errors.push(customMessage);
+          });
+          // Display errors
+          console.log("Form Errors:", form_errors);
+        }
+    });
+
+
+
+// Function to get custom validation messages
+function getCustomValidationMessage(element) {
+  // Customize validation messages based on the element
+  switch (element.id) {
+    case "fullname":
+      return "Name Field Missing";
+    case "email":
+      if (element.validity.valueMissing) {
+        return "Email Address Field Missing";
+      } else if (element.validity.typeMismatch) {
+        return "Invalid Email Address";
+      }
+      break;
+    case "message":
+      return "Message Field Missing";
+
+    default:
+      return "Validation error.";
+  }
+  return ""; // Default case for other elements
+}
+
+        // Character countdown for the comments textarea
+        const commentsField = document.getElementById("message");
+        const infoMessage = commentsField.nextElementSibling.nextElementSibling;
+
+        commentsField.addEventListener("input", function () {
+          const remainingCharacters = 500 - commentsField.value.length;
+
+          if (remainingCharacters <= 20) {
+            infoMessage.textContent = `Warning: ${remainingCharacters} characters remaining.`;
+            infoMessage.style.color = "orange";
+          } else if (remainingCharacters <= 10) {
+            infoMessage.textContent = `Error: ${remainingCharacters} characters remaining.`;
+            infoMessage.style.color = "red";
+          } else {
+            infoMessage.textContent = ""; // Clear info message
+          }
+        });
+
+    // Submit form_errors to the server
+    contact_form.addEventListener('submit', (event) => {
+            event.preventDefault();
+
+    console.log("Form Errors:", form_errors);
+    const formData = new FormData(contact_form);
+    const form_data = {
+        form_errors: form_errors,
+        form: Object.fromEntries(formData.entries()),
+    };
+    //formData.append("form-errors: ", JSON.stringify(form_errors));
+
+    // Submit formErrors to the server using fetch
+    fetch("https://httpbin.org/post", {
+      method: "POST",
+      headers: {
+        "Content-Type": "application/json",
+      },
+      body: JSON.stringify(form_data),
+    })
+      .then((response) => response.json())
+      .then((data) => {
+        console.log("Server Response:", data);
+      })
+      .catch((error) => {
+        console.error("Error submitting form_errors:", error);
+      });
+});
+});
+
+    </script>
+</body>
+</html>
